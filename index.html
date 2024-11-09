@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function / Date</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <nav>
+                <h1>Function and Date</h1>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Syntax</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="function__section">
+                <h2 class="function__title">Function</h2>
+
+                <div class="functions">
+                    <div class="function">
+                        <div class="func__declaration">
+                            <div class="func__title">Function Declaration</div>
+                            <p class="func__title">Example</p>
+                            <div class="func__code">
+                                function showMessage() { <br>
+                                alert( 'Hello everyone!' ); <br>
+                              }
+                            </div>
+                            <div class="func__code2">
+                                function showMessage() { <br>
+                                    alert( 'Hello everyone!' ); <br>
+                                  } <br>
+                                  
+                                  showMessage();
+                                  showMessage();
+                            </div>
+                        </div>
+                        <div class="func__declaration">
+                            <div class="func__title">Function  expressions</div>
+                            <p class="func__title">Example</p>
+                            <div class="func__code">
+                               
+                                function sayHi() { <br>
+                                    alert( "Hello" ); <br>
+                                  }
+                            </div>
+                            <div class="func__code2">
+                                function sayHi() { <br>
+                                    alert( "Hello" ); <br>
+                                  } <br>
+                                  
+                                  alert( sayHi ); <br> // funktsiya kodini ko'rsatadi
+                            </div>
+                        </div>
+                        <div class="func__declaration">
+                            <div class="func__title">Arrow functions</div>
+                            <p class="func__title">Example</p>
+                            <div class="func__code">
+                                let func = (arg1, arg2, ..., argN) => expression;
+                            </div>
+                            <div class="func__code2">
+                                let sum = (a, b) => a + b; <br>
+
+                               /* Bu strelka funksiyasi quyidagilarning qisqaroq shaklidir: <br>
+
+                                 let sum = function(a, b) {
+                                   return a + b;
+                                 };
+                                 */ <br>
+
+                                 alert( sum(1, 2) ); // 3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="date__section">
+              <h2 class="date__title">Date</h2>
+              <div class="dates">
+                <div class="date">
+                    <strong>new Date()</strong>
+                    <p>var now = new Date(); <br>
+                        alert( now );</p>
+                </div>
+                <div class="date">
+                    <strong>getHours()</strong>
+                    <p>
+                        console.log(date.getHours())
+                        // hozirgi voht
+                    </p>
+                </div>
+                <div class="date">
+                    <strong>getMinutes()</strong>
+                    <p>
+                        console.log(date.getMinutes()) <br>
+                        // sananing daqiqalarini (0 dan 59 gacha) qaytaradi.
+                    </p>
+                </div>
+                <div class="date">
+                    <strong>getMonth()</strong>
+                    <p>
+                        console.log(date.getMonth()) <br>
+                        // sananing oyini (0 dan 11 gacha) qaytaradi
+                    </p>
+                </div>
+                <div class="date">
+                    <strong>getDay()</strong>
+                    <p>
+                        console.log(date.getDay()) <br>
+                        // 
+                        berilgan Date obyektidan haftaning kunini (0 dan 6 gacha) olish uchun foydalaniladi
+                    </p>
+                </div>
+              </div>
+            </section>
+            </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,477 @@
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(157, 180, 157);
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header nav ul li {
+  font-size: 22px;
+  font-weight: 400;
+}
+header nav ul li a {
+  color: white;
+  transition: 0.3s;
+}
+header nav ul li a:hover {
+  color: orangered;
+}
+header nav h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 448px) {
+  header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(157, 180, 157);
+  }
+  header nav {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  header nav ul li {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  header nav ul li a {
+    color: white;
+    transition: 0.3s;
+  }
+  header nav ul li a:hover {
+    color: orangered;
+  }
+  header nav h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700px;
+    cursor: pointer;
+    color: white;
+  }
+}
+main .function__section {
+  padding-top: 90px;
+}
+main .function__section .function__title {
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+main .function__section .functions .function {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+main .function__section .functions .function .func__declaration {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 270px;
+}
+main .function__section .functions .function .func__declaration .func__title {
+  font-size: 26px;
+  font-weight: 400;
+}
+main .function__section .functions .function .func__declaration .func__title {
+  font-size: 22px;
+  font-weight: 400;
+}
+main .function__section .functions .function .func__declaration .func__code {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+main .function__section .functions .function .func__declaration .func__code2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+main .date__section .date__title {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+main .date__section .dates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 70px;
+}
+main .date__section .dates .date {
+  padding: 5px 5px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  width: 230px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (max-width: 448px) {
+  main .function__section {
+    padding-top: 90px;
+  }
+  main .function__section .function__title {
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+  main .function__section .functions .function {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  main .function__section .functions .function .func__declaration {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 270px;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__code {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  main .function__section .functions .function .func__declaration .func__code2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  main .date__section .date__title {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  main .date__section .dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  main .date__section .dates .date {
+    padding: 5px 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 230px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 758px) {
+  main .function__section {
+    padding-top: 90px;
+  }
+  main .function__section .function__title {
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+  main .function__section .functions .function {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  main .function__section .functions .function .func__declaration {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__code {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  main .function__section .functions .function .func__declaration .func__code2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  main .date__section .date__title {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  main .date__section .dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  main .date__section .dates .date {
+    padding: 5px 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 230px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 986px) {
+  main .function__section {
+    padding-top: 90px;
+  }
+  main .function__section .function__title {
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+  main .function__section .functions .function {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  main .function__section .functions .function .func__declaration {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__code {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  main .function__section .functions .function .func__declaration .func__code2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  main .date__section .date__title {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  main .date__section .dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  main .date__section .dates .date {
+    padding: 5px 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 230px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 1200px) {
+  main .function__section {
+    padding-top: 90px;
+  }
+  main .function__section .function__title {
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+  main .function__section .functions .function {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  main .function__section .functions .function .func__declaration {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 270px;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__title {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  main .function__section .functions .function .func__declaration .func__code {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  main .function__section .functions .function .func__declaration .func__code2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  main .date__section .date__title {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  main .date__section .dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 70px;
+  }
+  main .date__section .dates .date {
+    padding: 5px 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 230px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+body {
+  background-color: #fcdc00;
+}/*# sourceMappingURL=style.css.map */
